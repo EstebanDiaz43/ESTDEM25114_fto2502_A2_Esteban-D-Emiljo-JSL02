@@ -1,52 +1,35 @@
-# JSL02 Project Brief: Task Input and Status Validation System
+# JSL02 Project: Task Input and Status Validation System
 
-## Important Prerequisite
-
-1. Before starting this challenge, ensure that you have **corrected your JSL01 project (HTML and CSS)** using the solution provided. This will help maintain consistency and ensure you build on a solid foundation.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
-
-## Overview
+## Description
 
 This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
 
-## Key Objectives
+### Technologies used for this project
 
-### Logic & User Interaction
+- Html
+- Css
+- Js
 
-- Ensure the JavaScript file is correctly linked to the HTML document.
-- Prompt the user to enter details (title, description, status) for two separate tasks and store them in variables.
-- Convert all status inputs to lowercase automatically for consistency.
-- Validate the status input to allow only "todo", "doing", or "done" and repeatedly prompt the user until a valid status is entered.
-- Display the title and status of completed tasks (status: "done") in the console.
-- If no tasks are marked as "done", show a motivational message in the console: "No tasks completed, let's get to work!".
+### Features created and updated
 
-## Code Quality & Maintainability
+- Ability to insert a title to your task.
+- Ability to insert a status to your task.
+- An alert notification.
 
-- Use descriptive variable names to enhance readability and maintainability.
-- Include clear comments explaining complex logic and functionality for easier understanding.
+### Usage Example
 
-## Expected Outcome
-
-A functional task entry system that ensures accurate data collection, validation, and structured storage while maintaining clean and well-documented code for easy future modifications.
-
-**Prompt Input Example**
-
-- The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
+- The program will prompt users for task title, description and status inputs. You will ensert the needed information here.
 
   ![title prompt](./explainer-images/title%20prompt.png)
 
-**Invalid status**
-
-- If the user enters a status other than `todo`, `doing` or `done`, the program must alert the user of this and return to prompting them to enter a status.
+- If you enter a status other than `todo`, `doing` or `done`, the program will alert you of this and return to prompting them to enter a status.
 
   ![invalid status](./explainer-images/invalid%20status.png)
 
-**Console log**
-
-- When there is a completed task:
+- When there is a completed task, the console will display:
 
   ![invalid status](./explainer-images/completed%20task%20log.png)
 
-- When there are no completed tasks:
+- When there are no completed tasks, the console will display:
 
   ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
