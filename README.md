@@ -18,11 +18,11 @@ This project involves implementing a JavaScript-based task entry system where us
 
 ### Usage Example
 
-- The program will prompt users for task title, description and status inputs. You will ensert the needed information here.
+- The program will prompt users for a task title, description and status inputs. You will insert the needed information here.
 
   ![title prompt](./explainer-images/title%20prompt.png)
 
-- If you enter a status other than `todo`, `doing` or `done`, the program will alert you of this and return to prompting them to enter a status.
+- If you enter a status other than todo , doing or done, the program will alert you of this and return to prompting you to enter a status.
 
   ![invalid status](./explainer-images/invalid%20status.png)
 
